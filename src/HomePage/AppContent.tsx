@@ -12,10 +12,6 @@ const AppContent = () => {
     setSelected(input);
   };
 
-  //Select a set of users to make up a "Team".
-  //A "Team" is defined as one Concierge, one Account Executive,
-  //and one Head of Construction (all within the chosen market).
-
   const filterUsers = () => {
     if (selected !== Market.All) {
       setFilteredPeople(People.filter(person => person.markets.indexOf(selected) > -1));
