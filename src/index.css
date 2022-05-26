@@ -1,13 +1,78 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.home-page {
+  background-color: #fcfcfa;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-family: "Good Sans, sans-serif";
+}
+
+.logo-image {
+  display: block;
+  margin: 30px 0 30px 30px;
+}
+
+.header-break {
+  width: 100%;
+}
+
+.app-title {
+  font-family: "PT Serif, sans-serif";
+  font-size: 62px;
+  color: #353535;
+  line-height: 72px;
+  margin: 30px 0 30px 30px;
+}
+
+.search-field {
+  width: 450px;
+  margin-left: 30px;
+  height: 35px;
+  font-size: 16pt;
+  padding-left: 7px;
+}
+
+.tab-bar {
+  width: 100%;
+  display: flex;
+  margin-left: 20px;
+}
+
+.tab {
+  font-size: 20pt;
+  width: 150px;
+  margin: 25px 10px 25px 10px;
+  text-align: center;
+  background-color: #DCDCDC;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.tab:hover {
+  background-color: #A9A9A9;
+
+}
+
+.selected {
+  border-bottom: 5px solid #8FBC8F;
+}
+
+.unselected {
+  border-bottom: 5px solid #fcfcfa
 }
