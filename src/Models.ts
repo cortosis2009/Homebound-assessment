@@ -1,7 +1,8 @@
 
 export enum Market {
   SoCal = "SoCal",
-  NorCal = "NorCal"
+  NorCal = "NorCal",
+  All = "All"
 }
 
 export enum Role {

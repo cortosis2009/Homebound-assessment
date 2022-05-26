@@ -40,18 +40,11 @@ code {
   margin: 30px 0 30px 30px;
 }
 
-.search-field {
-  width: 450px;
-  margin-left: 30px;
-  height: 35px;
-  font-size: 16pt;
-  padding-left: 7px;
-}
-
 .tab-bar {
   width: 100%;
   display: flex;
   margin-left: 20px;
+  height: 90px;
 }
 
 .tab {
@@ -59,7 +52,7 @@ code {
   width: 150px;
   margin: 25px 10px 25px 10px;
   text-align: center;
-  background-color: #DCDCDC;
+  background-color: #353535;
   cursor: pointer;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -76,3 +69,60 @@ code {
 .unselected {
   border-bottom: 5px solid #fcfcfa
 }
+
+.individual {
+  display: grid;
+  flex: 0;
+  margin: 45px 25px 25px 25px;
+  height: 280px;
+}
+
+.content-header {
+  margin-bottom: 0px;
+}
+
+.content-parent {
+  background: #526675;
+  color: white;
+  margin-top: 30px;
+  height: 100%;
+}
+
+.individual-parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.person-name {
+  font-size: 24px;
+}
+
+.person-detail {
+  margin-top: 7px;
+}
+
+.detail-title {
+  font-weight: 600
+}
+
+.tab-button-parent {
+  display: flex
+}
+
+.clear-team {
+  width: 150px;
+  height: 40px;
+  margin: 30px 30px 0 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clicked {
+  background-color: #A9A9A9;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: black;
+}
+
